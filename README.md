@@ -1,110 +1,73 @@
+![Electron React Application](https://raw.githubusercontent.com/electron/electron/main/assets/electron-logo.svg)
 
 
-```markdown
-# School Managemenet System
+# Electron React Application
 
-Une brève description de votre projet.
+This is a template for an Electron application with React, Vite, Tailwind CSS, and SQLite integration.
 
-## Table des matières
+## Features
 
-1. [Prérequis](#prérequis)
-2. [Installation](#installation)
-3. [Configuration](#configuration)
-4. [Démarrage](#démarrage)
-5. [Utilisation](#utilisation)
-6. [Contribuer](#contribuer)
-7. [Licence](#licence)
+- Electron for cross-platform desktop application development
+- React for building user interfaces
+- Vite for fast development and building
+- Tailwind CSS for utility-first styling
+- SQLite for local database storage
 
-## Prérequis
+## Prerequisites
 
-Avant de commencer, assurez-vous que vous avez installé les outils suivants :
+- Node.js (version 18.0.0 or later)
+- npm (usually comes with Node.js)
 
-- [Node.js](https://nodejs.org/) (version recommandée : LTS)
-- [npm](https://www.npmjs.com/) (inclut avec Node.js) ou [Yarn](https://yarnpkg.com/) (optionnel)
+## Getting Started
 
-## Installation
-
-1. **Clonez le dépôt**
-
-   Clonez ce dépôt sur votre machine locale à l'aide de la commande suivante :
-   ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
    ```
 
-2. **Accédez au répertoire du projet**
-
-   Naviguez dans le répertoire du projet cloné :
-   ```bash
-   cd votre-projet
+2. Install dependencies:
    ```
-
-3. **Installez les dépendances**
-
-   Vous pouvez installer les dépendances en utilisant npm ou Yarn. Choisissez l'un des deux outils ci-dessous :
-
-   Avec npm :
-   ```bash
    npm install
    ```
 
-   Avec Yarn :
-   ```bash
-   yarn install
+3. Run the application in development mode:
    ```
+   npm run dev
+   ```
+
+4. Build the application for production:
+   ```
+   npm run build
+   ```
+
+5. Package the application for different platforms:
+   - Windows: `npm run build:win`
+   - macOS: `npm run build:mac`
+   - Linux: `npm run build:linux`
+
+## Project Structure
+
+- `src/main`: Electron main process code
+- `src/preload`: Preload scripts for Electron
+- `src/renderer`: React application code
+- `resources`: Application resources (e.g., database file)
 
 ## Configuration
 
-Si votre projet nécessite une configuration particulière, ajoutez les étapes nécessaires ici. Par exemple, vous pourriez devoir créer un fichier `.env` :
+- Electron builder configuration is in `electron-builder.yml`
+- Vite configuration is in `electron.vite.config.mjs`
 
-1. **Créez un fichier `.env`**
+## Scripts
 
-   Copiez le fichier `.env.example` et renommez-le en `.env`. Ensuite, modifiez les valeurs selon vos besoins :
-   ```bash
-   cp .env.example .env
-   ```
+- `npm start`: Preview the built app
+- `npm run dev`: Run the app in development mode
+- `npm run build`: Build the app for production
+- `npm run lint`: Lint the code
+- `npm run format`: Format the code with Prettier
 
-2. **Configurez les variables d'environnement**
+## Contributing
 
-   Ouvrez le fichier `.env` et ajustez les valeurs en fonction de votre environnement.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Démarrage
 
-Pour démarrer le projet en mode développement, utilisez l'une des commandes suivantes :
-
-Avec npm :
-```bash
-npm run dev
-```
-
-Avec Yarn :
-```bash
-yarn dev
-```
-
-Cela lancera le serveur de développement et vous pourrez accéder à l'application à l'adresse suivante : `http://localhost:3000`.
-
-## Utilisation
-
-Décrivez ici comment utiliser votre application une fois qu'elle est en cours d'exécution. Cela peut inclure des instructions sur les fonctionnalités principales, des captures d'écran ou des exemples d'utilisation.
-
-## Contribuer
-
-Si vous souhaitez contribuer à ce projet, veuillez suivre ces étapes :
-
-1. Forkez le dépôt
-2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/ma-nouvelle-fonctionnalité`)
-3. Commitez vos modifications (`git commit -am 'Ajout de ma nouvelle fonctionnalité'`)
-4. Poussez la branche (`git push origin feature/ma-nouvelle-fonctionnalité`)
-5. Ouvrez une pull request
-
-## Licence
-
-Ce projet est sous la licence [MIT](https://opensource.org/licenses/MIT). Voir le fichier [LICENSE](LICENSE) pour plus d'informations.
-
-```
-
-### Notes :
-
-- Remplacez `https://github.com/votre-utilisateur/votre-projet.git` par l'URL de votre dépôt Git.
-- Adaptez les sections `Configuration`, `Utilisation`, et `Contribuer` selon les spécificités de votre projet.
-- Ajoutez des instructions supplémentaires si votre projet a des besoins particuliers (ex : bases de données, services externes, etc.).
