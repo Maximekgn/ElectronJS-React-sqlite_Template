@@ -1,4 +1,5 @@
-![Electron React Application](https://raw.https://github.com/Maximekgn/ElectronJS-React-sqlite_Template.git/electron/electron/main/assets/electron-logo.svg)
+![image](https://github.com/user-attachments/assets/1a32a0e8-958e-4267-b89c-a9f4ee874888)
+
 
 
 # Electron React Application
