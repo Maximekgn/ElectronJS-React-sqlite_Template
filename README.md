@@ -1,4 +1,4 @@
-![Electron React Application](https://raw.githubusercontent.com/electron/electron/main/assets/electron-logo.svg)
+![Electron React Application](https://raw.https://github.com/Maximekgn/ElectronJS-React-sqlite_Template.git/electron/electron/main/assets/electron-logo.svg)
 
 
 # Electron React Application
@@ -22,7 +22,8 @@ This is a template for an Electron application with React, Vite, Tailwind CSS, a
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Maximekgn/ElectronJS-React-sqlite_Template.git
+
    cd your-repo-name
    ```
 
